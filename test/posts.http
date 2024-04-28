@@ -1,0 +1,36 @@
+### GET all posts
+GET http://localhost:3000/posts
+
+### GET post by ID
+GET http://localhost:3000/posts/1
+
+### POST a new post
+POST http://localhost:3000/posts
+Content-Type: application/json
+
+{
+    "userId": 1,
+    "title": "New post title",
+    "body": "New post body"
+}
+
+### DELETE a post by ID
+DELETE http://localhost:3000/posts/1
+
+### PATCH (partial update) a post by ID
+PATCH http://localhost:3000/posts/1
+Content-Type: application/json
+
+{
+    "title": "Updated post title"
+}
+
+### PUT (full update) a post by ID
+PUT http://localhost:3000/posts/1
+Content-Type: application/json
+
+{
+    "userId": 1,
+    "title": "Updated post title",
+    "body": "Updated post body"
+}

@@ -1,0 +1,26 @@
+{
+  "name": "jsonplaceholder-with-files-as-storage",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NathanKr/jsonplaceholder-with-files-as-storage.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NathanKr/jsonplaceholder-with-files-as-storage/issues"
+  },
+  "homepage": "https://github.com/NathanKr/jsonplaceholder-with-files-as-storage#readme",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "express": "^4.19.2",
+    "node-fetch": "^3.3.2"
+  }
+}
