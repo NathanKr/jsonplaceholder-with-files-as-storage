@@ -3,7 +3,16 @@
 
 
 <h2>Introduction</h2>
-<p>This project implement the api side of https://jsonplaceholder.typicode.com + persitence on files</p>
+<p>This project implement the api side of https://jsonplaceholder.typicode.com + persitence on files on http://localhost:3000</p>
+
+<h2>Limitations</h2>
+<ul>
+<li>This server implementation does not support : GET 	/comments?postId=1 . You can add the implementation yourself</li>
+</ul>
+
+<h2>Web Client</h2>
+Any web client can access this server becuase the server support cors
+
 
 <h2>Points of interest</h2>
 <ul>
