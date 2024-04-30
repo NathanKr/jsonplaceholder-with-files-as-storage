@@ -7,7 +7,8 @@
 
 <h2>Limitations</h2>
 <ul>
-<li>This server implementation does not support : GET 	/comments?postId=1 . You can add the implementation yourself</li>
+<li>This server implementation does not support query string : GET 	/comments?postId=1 . You can add the implementation yourself</li>
+<li>This server implementation does not support nesting : GET /posts/1/comments. You can add the implementation yourself</li>
 </ul>
 
 <h2>Web Client</h2>
