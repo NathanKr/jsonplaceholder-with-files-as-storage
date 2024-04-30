@@ -6,7 +6,7 @@ import { fileURLToPath } from "url";
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
-const dataFolderPath = path.join(__dirname, "data");
+const dataFolderPath = path.join(__dirname,'..' ,"data");
 
 // Fetch data from JSONPlaceholder and save to local file
 async function fetchDataAndSave(resource) {
